@@ -16,6 +16,10 @@ div a span {}
     padding-bottom: 60px;
 }
 
+footer .container {
+    padding-top: 0;
+}
+
 .row {
     display: flex;
     justify-content: center;

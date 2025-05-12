@@ -9,7 +9,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://front-end-by-sberzonskiene.github.io/55-coming-soon
 
-Design: ![alt text](image-1.png)
+Design: ![alt text](./img/image.png)
 
 🎯 Project features/goals
 Github pages

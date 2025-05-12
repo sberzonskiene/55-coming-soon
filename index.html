@@ -10,18 +10,23 @@
 <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
 <meta name="apple-mobile-web-app-title" content="Coming soon" />
 <link rel="manifest" href="./favicon/apple-touch-icon.png" />
+<!-- base/layout-->
 <link rel="stylesheet" href="./css/pages/coming-soon.css"/>
-<link rel="stylesheet" href="./css/components/layout.css"/>
+<link rel="stylesheet" href="./css/base/layout.css"/>
+<!-- vendor-->
+<!--components-->
 <link rel="stylesheet" href="./css/components/clock.css"/>
 <link rel="stylesheet" href="./css/components/mouse.css"/>
+<link rel="stylesheet" href="./css/components/progress-bar.css">
+<!--custom pege-->
 </head>
 
 <body>
-    <header class="container bg-blue">
+    <header class="container bg-blue hero">
         <div class="row-short">
             <img class="logo" src="./img/logo.png" alt="Logo">
             <h1 class="main-title">Coming soon</h1>
-            <p class="main-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eos consequatur soluta beatae officiis reprehenderit facere unde facilis accusantium ducimus! Alias voluptatum quis sunt. Quasi error similique id earum facere!</p>
+            <p class="main-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eos consequatur soluta beatae officiis reprehenderit facere unde facilis accusantium ducimus!</p>
             <div class="clock">
                 <div class="time">
                     <div class="value">432</div>
@@ -48,16 +53,53 @@
         <div class="row">
             <div class="column">
                 <h2 class="section-title">About startup</h2>
-                <p class="section-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis asperiores distinctio quas est iure voluptates ratione. Pariatur alias quibusdam dolores, <a href="#">Matrox</a> culpa obcaecati repellendus vel illum commodi, voluptatem incidunt harum!</p>
-            </div>
+                <p class="section-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur alias quibusdam dolores, <a href="#">Matrox</a> culpa obcaecati repellendus vel illum commodi, voluptatem incidunt harum.</p>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div>UX design</div>
+                        <div>90%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div>Web design</div>
+                        <div>57%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 57%;"></div>
+                    </div>
+                </div>
+                 <div class="progress-bar">
+                    <div class="top">
+                        <div>Web development</div>
+                        <div>12%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 12%;"></div>
+                    </div>
+                </div>
+            </div>    
+
             <div class="column">
                 <h2 class="section-title">Have any question?</h2>
-                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing <a href="mailto:mano@pastas.lt">mano@pastas.lt</a> elit. Quisquam, voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
-            </div>
-        </div>
+                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing <a href="mailto:mano@pastas.lt">mano@pastas.lt</a>. Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
+        
     </main>
 
     <footer class="container bg-blue">
+        <div class="row">
+             <div class="socials">
+                <a href="#" class="fa fa-feisbook"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#">AA</a>
+                <a href="#">AA</a>
+            </div>
+        </div>   
         <div class="row-short">
             <img class="logo-white" src="./img/logo-white.png" alt="Logo">
             <div class="text-trio">
