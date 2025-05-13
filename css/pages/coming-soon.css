@@ -28,6 +28,21 @@
     color: #ccc;
 }
 
+.hero .form-row {
+  justify-content: center;
+}
+.hero label {
+  color: #fff;
+}
+.hero input {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+.hero ::placeholder {
+  color: #fff;
+}
+
 .section-title {
     font-size: 25px;
     color: #000;
