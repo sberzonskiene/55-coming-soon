@@ -15,7 +15,23 @@
  height: 0.5rem;
 }
 .progress-bar .bar {
+    height: 100%;
+    width: 90%;
+}
+.progress-bar .value {
  background-color: #03a9f5;
  height: 100%;
- width: 90%;
+ width: 100%;
+ animation-name: loading;
+ animation-duration: 2s;
+ animation-fill-mode: forwards;
+}
+
+@keyframes loading {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
 }

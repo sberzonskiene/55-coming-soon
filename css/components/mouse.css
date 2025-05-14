@@ -13,8 +13,10 @@
     margin-left: 0.55em;
     margin-top: 0.5em;
     background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     border-radius: 0.15em;
-
     animation-name: movement;
     animation-duration: 1s;
     animation-iteration-count: infinite;
