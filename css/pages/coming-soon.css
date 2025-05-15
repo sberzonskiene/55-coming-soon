@@ -3,7 +3,7 @@ html {
 }
 
 .bg-blue {
-    background-color: #03a9f5;
+    background-color: var(--color-primary);
 }
 
 .hero {
@@ -154,7 +154,7 @@ footer .row {
     position: absolute;
     top: -3em;
     right: -0.7em;
-    background-color: #eb1e61;
+    background-color: var(--color-secondary);
     text-align: center;
     box-shadow: var(--shadow);
 }
